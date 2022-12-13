@@ -14,7 +14,6 @@ class MyTestCase(unittest.TestCase):
         expected = 5
         self.assertEqual(result, expected)
 
-    '''@unittest.skip('Some reason')'''
     def test_mul(self):
         self.calc = Calculator()
         result = self.calc.mul(3, 7)
